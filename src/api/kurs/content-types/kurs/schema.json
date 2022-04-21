@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "kurs",
+    "pluralName": "courses",
+    "displayName": "kurs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kurs_id": {
+      "type": "string"
+    },
+    "kurs_description": {
+      "type": "text"
+    },
+    "kurs_info": {
+      "type": "text"
+    },
+    "kurs_start_title": {
+      "type": "string"
+    },
+    "kurs_content_title": {
+      "type": "string"
+    },
+    "kurs_arbeidsform_title": {
+      "type": "string"
+    },
+    "kurs_target_audience_title": {
+      "type": "string"
+    },
+    "kurs_tema_title": {
+      "type": "string"
+    },
+    "kurs_tid_sted_title": {
+      "type": "string"
+    },
+    "kurs_registration_title": {
+      "type": "string"
+    },
+    "kurs_start": {
+      "type": "text"
+    },
+    "kurs_content": {
+      "type": "text"
+    },
+    "kurs_arbeidsform": {
+      "type": "text"
+    },
+    "kurs_target_audience": {
+      "type": "string"
+    },
+    "kurs_tema": {
+      "type": "text"
+    },
+    "kurs_tid_sted": {
+      "type": "text"
+    },
+    "kurs_registration": {
+      "type": "string"
+    },
+    "kurs_target_audience_filter": {
+      "type": "enumeration",
+      "enum": [
+        "helsepersonell/fagfolk",
+        "pårørende/pasient",
+        "alle"
+      ]
+    },
+    "kurs_date": {
+      "type": "date"
+    }
+  }
+}
