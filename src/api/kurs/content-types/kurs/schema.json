@@ -73,6 +73,9 @@
     },
     "kurs_date": {
       "type": "date"
+    },
+    "short_title": {
+      "type": "string"
     }
   }
 }
